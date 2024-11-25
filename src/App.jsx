@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes } from 'react-router-dom';
+import Home from "./pages/Home"
 // import AppCards from './components/AppCards'
 
 
@@ -181,6 +182,18 @@ function App() {
 
       {/* <AppCards postsData={postsData} loading={loading} />  */}
 
+      {/* return ( */}
+      {/* <BrowserRouter>
+      <Routes>
+        <Route element={<DefaultLayout />}>
+          <Route path='/' element={<Home />}/>
+          <Route path='/posts' element={<PostList />}/>
+          <Route path='/chi-siamo' element={<ChiSiamo />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter> */}
+      {/* ) */}
+}
 
     </>
   )
