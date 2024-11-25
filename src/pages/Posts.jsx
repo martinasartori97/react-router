@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MainMenu from "../components/MainMenu"
 export default function Posts() {
     return (
