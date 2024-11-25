@@ -1,7 +1,8 @@
 // import { useState, useEffect } from 'react'
 import './App.css'
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home"
+import DefaultLayout from './pages/DefaultLayout';
 // import AppCards from './components/AppCards'
 
 
