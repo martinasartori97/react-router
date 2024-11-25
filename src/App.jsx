@@ -2,6 +2,8 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home"
+import ChiSiamo from './pages/ChiSiamo';
+import Posts from './pages/Posts';
 import DefaultLayout from './pages/DefaultLayout';
 // import AppCards from './components/AppCards'
 
