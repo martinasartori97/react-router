@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  background-color: coral
+}
+
+p {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darksalmon;
+  letter-spacing: 0.3rem;
+
+
+}
+
+.img {
+  text-align: center;
+}
+
+.form-check {
+  padding-bottom: 0.5rem;
+
+}
+
+.form-check-label {
+  padding-bottom: 3rem;
+}
+
+.posts {
+  background-color: coral;
+
+}
+
+.card {
+  margin-bottom: 3rem;
+}
