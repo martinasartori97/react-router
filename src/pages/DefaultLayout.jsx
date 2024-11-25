@@ -4,23 +4,16 @@ import MainMenu from "../components/MainMenu";
 export default function DefaultLayout() {
     return (
         <>
+            <MainMenu />
 
-            <header>
-                <div className="logo">
-                    LOGO
-
-                </div>
-                <MainMenu />
-
-            </header>
+            <header />
 
             <main>
                 <Outlet />
             </main>
 
-            <footer>
-                <p>copyright 2024</p>
-            </footer>
+            <footer />
+
         </>
     )
 }
