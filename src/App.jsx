@@ -1,4 +1,5 @@
 // import { useState, useEffect } from 'react'
+
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home"
@@ -197,8 +198,9 @@ function App() {
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path='/' element={<Home />} />
-            <Route path='/Posts' element={<Posts />} />
             <Route path='/ChiSiamo' element={<ChiSiamo />} />
+            <Route path='/Posts' element={<Posts />} />
+
           </Route>
         </Routes>
       </BrowserRouter>
