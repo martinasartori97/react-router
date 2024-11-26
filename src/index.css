@@ -41,3 +41,9 @@ p {
 .card {
   margin-bottom: 3rem;
 }
+
+.navigazione {
+  display: flex;
+  justify-content: space-around;
+
+}
