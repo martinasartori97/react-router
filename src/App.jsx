@@ -7,6 +7,7 @@ import ChiSiamo from './pages/ChiSiamo';
 import Posts from './pages/Posts';
 import DefaultLayout from './pages/DefaultLayout';
 import PostsDetail from './pages/PostsDetail'
+import SinglePost from './pages/SinglePost'
 // import AppCards from './components/AppCards'
 
 
