@@ -202,8 +202,9 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/ChiSiamo' element={<ChiSiamo />} />
             <Route path='/Posts' element={<Posts />} />
-
           </Route>
+
+          <Route path='/:slug' element={<SinglePost />} />
         </Routes>
       </BrowserRouter>
 
